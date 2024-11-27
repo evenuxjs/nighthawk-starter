@@ -8,7 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:nighthawk-starter": "node dist/nighthawk-starter/server/server.mjs",
-    "postinstall": "copyfiles -u 4 \"./node_modules/ngx-f117/src/assets/**/*\" ./public/"
+    "postinstall": "copyfiles -u 4 \"./node_modules/ngx-nighthawk/src/assets/**/*\" ./public/"
   },
   "private": true,
   "dependencies": {
@@ -24,7 +24,7 @@
     "@angular/ssr": "^19.0.2",
     "copyfiles": "^2.4.1",
     "express": "^4.18.2",
-    "ngx-f117": "^7.0.1",
+    "ngx-nighthawk": "^7.0.14",
     "ngx-quill": "^27.0.0",
     "quill": "^2.0.2",
     "rxjs": "~7.8.0",
