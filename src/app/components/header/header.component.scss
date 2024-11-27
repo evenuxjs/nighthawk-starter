@@ -1,0 +1,12 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  line-height: 80px;
+  background-color: var(--highlight-color);
+
+  nav a {
+    padding: 0 20px;
+  }
+}

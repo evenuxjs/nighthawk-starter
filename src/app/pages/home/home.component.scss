@@ -1,0 +1,25 @@
+@import "ngx-nighthawk/styles/mixins";
+
+:host {
+  display: flex;
+  align-items: center;
+  height: calc(100dvh - 200px - 360px);
+
+  @include media-breakpoint-down(lg) {
+    align-items: start;
+    padding-top: 40px;
+  }
+}
+
+h1 {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+img {
+  border-radius: 32px;
+}
+
+.highlight {
+  color: var(--primary-color);
+}
